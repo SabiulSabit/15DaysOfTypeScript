@@ -24,7 +24,7 @@ function fn<Type>(n: Type): Type {
 }
 
 ```
-** We can do many things using this Generic option, Follow this link for more: (Official Doc: Generics )[https://www.typescriptlang.org/docs/handbook/2/generics.html]
+** We can do many things using this Generic option, Follow this link for more: [Official Doc: Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
 
 
 
