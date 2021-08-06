@@ -25,7 +25,14 @@
 
 
  //function
- 
+ const printNumber: (value: number) => void = (value: number) => {
+     console.log(value);
+ }
+
+ const returnNumber: (value: number) => number = (value: number) => {
+    return value;
+}
+
 
  //valid and invalid way to access or modify those variable
  apples = 10;           // valid
