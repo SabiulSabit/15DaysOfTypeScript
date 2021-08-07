@@ -14,3 +14,12 @@ const cord_1: {x: number; y: number} =  JSON.parse(json_1);
 
 //invalid
 //cord_1.hello= "sdf";
+
+//decleare 1st then initilaze it
+let new_var: boolean;  // or let new_var: fasle; 
+
+for(let i=0; i<3; i++){
+    if(i === 2){
+        new_var =  true;
+    }
+}
