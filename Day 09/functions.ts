@@ -10,3 +10,13 @@ const add = (a: number, b: number): number => {
 const sub = (a: number, b: number) => {
     console.log(a - b);
 }
+
+
+// by using function keyword
+function mul(a: number, b: number): number {
+    return a * b;
+}
+
+function div(a: number, b: number) {
+    console.log(a / b);
+}
