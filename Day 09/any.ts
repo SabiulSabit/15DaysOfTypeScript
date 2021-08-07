@@ -23,3 +23,14 @@ for(let i=0; i<3; i++){
         new_var =  true;
     }
 }
+
+
+//vraible whose type cannot be inferred correctly
+let number: boolean | string = false; // initialy this is a boolean value
+
+for(let i=0; i<3; i++){
+    if(i === 2){
+        number =  "True Value" // now this is string
+    }
+}
+
