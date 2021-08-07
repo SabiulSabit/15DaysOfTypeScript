@@ -20,3 +20,11 @@ function mul(a: number, b: number): number {
 function div(a: number, b: number) {
     console.log(a / b);
 }
+
+
+//return void
+function test(a: number, b: number): void {
+    console.log(a / b);
+    // return null;        // valid
+    // return undefined;   // valid
+}
