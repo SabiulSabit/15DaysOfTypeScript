@@ -10,3 +10,19 @@ const profile = {
         this.age = age;
     }
 }
+
+
+//destructuring the data
+const { age }: { age: number } = profile;
+
+// multiple data  destructuring
+const { username, roll }: { username: string, roll: number } = profile;
+
+
+//get nested object
+const { coords:
+    { lat, lng }
+}: {
+    coords:
+    { lat: number; lng: number }
+} = profile;
