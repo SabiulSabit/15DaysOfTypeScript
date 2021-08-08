@@ -18,3 +18,11 @@ carMakers.map((car: string): string => {
     return car;
 })
 
+
+//many type data in array
+// this array have two type data
+const diffDate = [new DataCue(), "2020-12-12"]
+
+//declearation
+const newData: (string | number)[] = [1, "3"];
+
