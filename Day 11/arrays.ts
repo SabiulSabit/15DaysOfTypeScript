@@ -12,3 +12,9 @@ carMakers.push('lambo')
 //invalid
 //carMakers.push(233);
 
+
+//use map
+carMakers.map((car: string): string => {
+    return car;
+})
+
