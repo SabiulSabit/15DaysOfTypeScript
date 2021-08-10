@@ -1,4 +1,5 @@
 //create an interface
+//key and value type fixed now
 interface Vehicle {
     name: string;
     year: number;
