@@ -1,8 +1,14 @@
 //create a class
 class Vehicle {
+
     drive(): void {
         console.log("Hello from Drive");
+    }
 
+    //use access modifiers
+    //this private method can only be used from inside of this class
+    private play(): void {
+        console.log("This is a private method");
     }
 }
 
@@ -23,6 +29,9 @@ const vehicle = new Vehicle();
 
 //use class propery
 vehicle.drive();
+
+// this is not valid
+// vehicle.play();
 
 //use car class
 const abc = new Car();
