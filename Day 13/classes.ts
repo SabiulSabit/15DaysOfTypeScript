@@ -1,6 +1,14 @@
 //create a class
 class Vehicle {
 
+    private userName: string;
+
+    //use constructor
+    constructor(name: string) {
+        this.userName = name;
+        console.log(`Hello ${this.userName}`);
+    }
+
     drive(): void {
         console.log("Hello from Drive");
     }
@@ -25,7 +33,7 @@ class Car extends Vehicle {
 
 
 //class instance create
-const vehicle = new Vehicle();
+const vehicle = new Vehicle("sabit");
 
 //use class propery
 vehicle.drive();
@@ -34,6 +42,6 @@ vehicle.drive();
 // vehicle.play();
 
 //use car class
-const abc = new Car();
+const abc = new Car("sabit");
 abc.drive();
 
